@@ -1,0 +1,27 @@
+<div class="tabs">
+  <ion-tabs slot="bottom">
+    <ion-tab-bar slot="bottom">
+
+      <ion-tab-button tab="anuncios">
+        <ion-icon [routerLink]="['/anuncios']" name="notifications"></ion-icon>
+        <ion-label>Anuncios</ion-label>
+        <ion-badge>6</ion-badge>
+      </ion-tab-button>
+      <ion-tab-button tab="liturgias">
+        <ion-icon [routerLink]="['/lirutgias']" name="albums"></ion-icon>
+        <ion-label>Liturgias</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="trabajos">
+        <ion-icon [routerLink]="['/trabajos']"name="briefcase"></ion-icon>
+        <ion-label>Mis Trabajos</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="galeria">
+        <ion-icon [routerLink]="['/galeria']"name="images"></ion-icon>
+        <ion-label>Galeria
+        </ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</div>
