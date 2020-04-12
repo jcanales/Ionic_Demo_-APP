@@ -1,5 +1,4 @@
 import { Component, OnInit, NgModule } from '@angular/core';
-import { NavTabsComponent } from '../../components/navtabs/navtabs.component';
 import { NavController } from '@ionic/angular';
 
 @Component({
@@ -18,7 +17,7 @@ export class HomePage implements OnInit {
 
 }
 @NgModule ({
-  declarations: [NavTabsComponent]
+  declarations: [HomePage]
 
 })
 
